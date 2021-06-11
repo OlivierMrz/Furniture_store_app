@@ -54,14 +54,70 @@
 		692B5EA12673A07300903E56 /* Furniture_store */ = {
 			isa = PBXGroup;
 			children = (
-				692B5EA22673A07300903E56 /* AppDelegate.swift */,
-				692B5EA42673A07300903E56 /* SceneDelegate.swift */,
-				692B5EA62673A07300903E56 /* ViewController.swift */,
-				692B5EAB2673A07500903E56 /* Assets.xcassets */,
-				692B5EAD2673A07500903E56 /* LaunchScreen.storyboard */,
-				692B5EB02673A07500903E56 /* Info.plist */,
+				692B5EBC2673A67300903E56 /* Model */,
+				692B5EBD2673A67F00903E56 /* Overview */,
+				692B5EB72673A5FC00903E56 /* App */,
 			);
 			path = Furniture_store;
+			sourceTree = "<group>";
+		};
+		692B5EB72673A5FC00903E56 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				692B5EB82673A60300903E56 /* Application */,
+				692B5EB92673A61100903E56 /* Resources */,
+				692B5EBA2673A61C00903E56 /* Supporting Files */,
+				692B5EBB2673A62500903E56 /* StoryBoards */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		692B5EB82673A60300903E56 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				692B5EA22673A07300903E56 /* AppDelegate.swift */,
+				692B5EA42673A07300903E56 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		692B5EB92673A61100903E56 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				692B5EAB2673A07500903E56 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		692B5EBA2673A61C00903E56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				692B5EB02673A07500903E56 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		692B5EBB2673A62500903E56 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				692B5EAD2673A07500903E56 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		692B5EBC2673A67300903E56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		692B5EBD2673A67F00903E56 /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				692B5EA62673A07300903E56 /* ViewController.swift */,
+			);
+			path = Overview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,7 +353,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5UGZJE492X;
-				INFOPLIST_FILE = Furniture_store/Info.plist;
+				INFOPLIST_FILE = "Furniture_store/App/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +372,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5UGZJE492X;
-				INFOPLIST_FILE = Furniture_store/Info.plist;
+				INFOPLIST_FILE = "Furniture_store/App/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
