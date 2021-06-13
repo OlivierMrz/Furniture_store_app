@@ -18,6 +18,7 @@
 		692B5EC72673B71A00903E56 /* BarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692B5EC62673B71A00903E56 /* BarButtonItem.swift */; };
 		69D272192676A94800C46BC0 /* NewArrivalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D272182676A94800C46BC0 /* NewArrivalTableViewCell.swift */; };
 		69D2721C2676B0B300C46BC0 /* ReuseIdentifying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D2721B2676B0B300C46BC0 /* ReuseIdentifying.swift */; };
+		69D2721E2676B19F00C46BC0 /* OverviewTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D2721D2676B19F00C46BC0 /* OverviewTableViewHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		692B5EC62673B71A00903E56 /* BarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButtonItem.swift; sourceTree = "<group>"; };
 		69D272182676A94800C46BC0 /* NewArrivalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewArrivalTableViewCell.swift; sourceTree = "<group>"; };
 		69D2721B2676B0B300C46BC0 /* ReuseIdentifying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifying.swift; sourceTree = "<group>"; };
+		69D2721D2676B19F00C46BC0 /* OverviewTableViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewTableViewHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			children = (
 				692B5EC62673B71A00903E56 /* BarButtonItem.swift */,
 				69D272182676A94800C46BC0 /* NewArrivalTableViewCell.swift */,
+				69D2721D2676B19F00C46BC0 /* OverviewTableViewHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69D2721E2676B19F00C46BC0 /* OverviewTableViewHeaderView.swift in Sources */,
 				692B5EA72673A07300903E56 /* OverviewViewController.swift in Sources */,
 				69D2721C2676B0B300C46BC0 /* ReuseIdentifying.swift in Sources */,
 				692B5EC72673B71A00903E56 /* BarButtonItem.swift in Sources */,

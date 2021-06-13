@@ -64,6 +64,8 @@ class OverviewViewController: UIViewController {
         tableView.separatorStyle = .none
         tableView.register(NewArrivalTableViewCell.self,
                            forCellReuseIdentifier: NewArrivalTableViewCell.reuseIdentifier)
+        tableView.register(OverviewTableViewHeaderView.self,
+                           forHeaderFooterViewReuseIdentifier: OverviewTableViewHeaderView.reuseIdentifier)
     }
 }
 
@@ -85,5 +87,22 @@ extension OverviewViewController: UITableViewDelegate, UITableViewDataSource {
 
     func tableView(_: UITableView, heightForRowAt _: IndexPath) -> CGFloat {
         return 400
+    }
+
+    func tableView(_: UITableView, heightForHeaderInSection _: Int) -> CGFloat {
+        return 60
+    }
+
+    func tableView(_: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        guard let view = tableView
+            .dequeueReusableHeaderFooterView(withIdentifier: OverviewTableViewHeaderView
+                .reuseIdentifier) as? OverviewTableViewHeaderView else {
+            return nil
+        }
+
+        let titels = ["New arrival", "Collections"]
+        view.title.text = titels[section]
+        view.imageView.image = Icons.arrow_right
+        return view
     }
 }
