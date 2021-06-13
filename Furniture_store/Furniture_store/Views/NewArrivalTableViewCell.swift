@@ -7,16 +7,6 @@
 
 import UIKit
 
-protocol ReuseIdentifying {
-    static var reuseIdentifier: String { get }
-}
-
-extension ReuseIdentifying {
-    static var reuseIdentifier: String {
-        return String(describing: Self.self)
-    }
-}
-
 class NewArrivalTableViewCell: UITableViewCell, ReuseIdentifying {
     private var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
