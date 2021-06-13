@@ -12,7 +12,7 @@ class OverviewViewController: UIViewController {
 
     private var tableView: UITableView = {
         let view = UITableView()
-        view.backgroundColor = .gray
+        view.backgroundColor = .clear
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -60,6 +60,10 @@ class OverviewViewController: UIViewController {
             tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0),
             tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0)
         ])
+
+        tableView.separatorStyle = .none
+        tableView.register(NewArrivalTableViewCell.self,
+                           forCellReuseIdentifier: NewArrivalTableViewCell.reuseIdentifier)
     }
 }
 
@@ -72,7 +76,14 @@ extension OverviewViewController: UITableViewDelegate, UITableViewDataSource {
         1
     }
 
-    func tableView(_: UITableView, cellForRowAt _: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+    func tableView(_: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: NewArrivalTableViewCell.reuseIdentifier,
+                                                 for: indexPath) as! NewArrivalTableViewCell
+        cell.selectionStyle = .none
+        return cell
+    }
+
+    func tableView(_: UITableView, heightForRowAt _: IndexPath) -> CGFloat {
+        return 400
     }
 }

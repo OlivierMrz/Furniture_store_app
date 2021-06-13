@@ -16,6 +16,7 @@
 		692B5EC22673AA9300903E56 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692B5EC12673AA9300903E56 /* Icons.swift */; };
 		692B5EC42673B1A000903E56 /* OverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692B5EC32673B1A000903E56 /* OverviewViewModel.swift */; };
 		692B5EC72673B71A00903E56 /* BarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692B5EC62673B71A00903E56 /* BarButtonItem.swift */; };
+		69D272192676A94800C46BC0 /* NewArrivalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D272182676A94800C46BC0 /* NewArrivalTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		692B5EC12673AA9300903E56 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		692B5EC32673B1A000903E56 /* OverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewModel.swift; sourceTree = "<group>"; };
 		692B5EC62673B71A00903E56 /* BarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButtonItem.swift; sourceTree = "<group>"; };
+		69D272182676A94800C46BC0 /* NewArrivalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewArrivalTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				692B5EC62673B71A00903E56 /* BarButtonItem.swift */,
+				69D272182676A94800C46BC0 /* NewArrivalTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				692B5EA32673A07300903E56 /* AppDelegate.swift in Sources */,
 				692B5EC22673AA9300903E56 /* Icons.swift in Sources */,
 				692B5EA52673A07300903E56 /* SceneDelegate.swift in Sources */,
+				69D272192676A94800C46BC0 /* NewArrivalTableViewCell.swift in Sources */,
 				692B5EC42673B1A000903E56 /* OverviewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
